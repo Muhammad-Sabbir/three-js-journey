@@ -1,0 +1,5 @@
+if server is not starting then use power shell, and 
+stop the winnat and start the winnat and then run the vite server, 
+
+start command: net start winnat
+stop command: net stop winnat
