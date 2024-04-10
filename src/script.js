@@ -56,6 +56,38 @@ const ambientOcclusionTexture = textureLoader.load(
 const metalnessTexture = textureLoader.load("textures/door/metalness.jpg");
 const roughenessTexture = textureLoader.load("textures/door/roughuness.jpg");
 
+// example 3
+// colorTexture.repeat.x = 2;
+// colorTexture.repeat.y = 3;
+// colorTexture.wrapS = THREE.RepeatWrapping;
+// colorTexture.wrapT = THREE.RepeatWrapping;
+
+//  example 4
+
+// colorTexture.wrapS = THREE.RepeatWrapping;
+// colorTexture.wrapT = THREE.RepeatWrapping;
+// colorTexture.offset.x = 0.5;
+// colorTexture.offset.y = 0.5;
+
+// example 5
+// colorTexture.repeat.x = 2;
+// colorTexture.repeat.y = 3;
+// colorTexture.wrapS = THREE.RepeatWrapping;
+// colorTexture.wrapT = THREE.RepeatWrapping;
+// colorTexture.offset.x = 0.5;
+// colorTexture.offset.y = 0.5;
+// colorTexture.rotation = Math.PI / 4;
+// colorTexture.center.x = 0.5;
+// colorTexture.center.y = 0.5;
+
+// // example 6
+// colorTexture.minFilter = THREE.NearestFilter; // this filter will bring blurry effect if the image resulation is very low
+// colorTexture.magFilter = THREE.NearestFilter; // to remove the blury effect from the texture and make it more sharp we need to use this magFilter
+
+// example 7
+colorTexture.generateMipmaps = false;
+colorTexture.minFilter = THREE.NearestFilter; // this filter will bring blurry effect if the image resulation is very low
+colorTexture.magFilter = THREE.NearestFilter; // to remove the blury effect from the texture and make it more sharp we need to use this magFilter
 /**
  * Base
  */
