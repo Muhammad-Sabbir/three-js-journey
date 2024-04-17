@@ -24,3 +24,6 @@ gitcommands.txt
 *.njsproj
 *.sln
 *.sw?
+static
+*.jpg
+*.png
